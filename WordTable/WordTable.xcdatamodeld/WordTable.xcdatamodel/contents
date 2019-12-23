@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15508" systemVersion="19B88" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Department" representedClassName="Department" syncable="YES" codeGenerationType="class">
+        <attribute name="deptdescription" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="priority" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="terms" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Term" inverseName="department" inverseEntity="Term"/>
+    </entity>
+    <entity name="Term" representedClassName="Term" syncable="YES" codeGenerationType="class">
+        <attribute name="english" optional="YES" attributeType="String"/>
+        <attribute name="hmong" optional="YES" attributeType="String"/>
+        <attribute name="priority" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="somali" optional="YES" attributeType="String"/>
+        <attribute name="spanish" optional="YES" attributeType="String"/>
+        <attribute name="termdescription" optional="YES" attributeType="String"/>
+        <relationship name="department" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Department" inverseName="terms" inverseEntity="Department"/>
+    </entity>
+    <elements>
+        <element name="Department" positionX="-36" positionY="9" width="128" height="103"/>
+        <element name="Term" positionX="-18" positionY="27" width="128" height="148"/>
+    </elements>
+</model>
