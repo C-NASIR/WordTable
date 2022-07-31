@@ -11,13 +11,13 @@ struct wordsList {
         "Allergy" :
         [
             Languages.English : "A condition in which the immune system reacts abnormally to a foreign substance.",
-            Languages.Spanish : "Alergia", Languages.Somali : "Cannun/cuncun", Languages.Hmong : "phiv"
+            Languages.Spanish : "Alergia", Languages.Somali : "Cuncun", Languages.Hmong : "phiv"
         ],
         
         "Belly Button" :
         [
             Languages.English : "is a protruding, flat, or hollowed area on the abdomen at the attachment site of the umbilical cord.",
-            Languages.Spanish: "ombligo", Languages.Somali: "Xundhur", Languages.Hmong : ""
+            Languages.Spanish: "ombligo", Languages.Somali: "Xundhur/xudun", Languages.Hmong : ""
         ],
         
         "Bloated" :
@@ -50,7 +50,7 @@ struct wordsList {
         "Cavities/dental caries" :
         [
             Languages.English : "Permanently damaged areas in teeth that develop into tiny holes.",
-            Languages.Spanish: "caries/caries dentales", Languages.Somali: "Shuush", Languages.Hmong : "kab noj hniav"
+            Languages.Spanish: "caries/caries dentales", Languages.Somali: "Suus", Languages.Hmong : "kab noj hniav"
         ],
                
         "Croup" :
@@ -72,7 +72,7 @@ struct wordsList {
         "Hand, foot and mouth disease" :
         [
             Languages.English : "A common children's virus causing sores in the mouth and a rash on the hands and feet.",
-            Languages.Spanish: "aftas en las manos, pies, y boca", Languages.Somali: "Gacmaha,Lugta iyo Afka cuddur ka dhaco", Languages.Hmong: "kabmob tes, taw, thiab qhov nqauj"
+            Languages.Spanish: "aftas en las manos, pies, y boca", Languages.Somali: "Gacmaha,Lugta iyo Afka cuddur ku dhaco", Languages.Hmong: "kabmob tes, taw, thiab qhov nqauj"
         ]
     ]
 }
